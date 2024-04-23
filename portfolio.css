@@ -54,12 +54,15 @@ button h3{
   font-style:bold;
 }
 nav {
+  margin-top: -17%;
+  position: fixed;
   background-color: rgb(16, 134, 134);
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 35px;
-  margin-top: auto;
+  width: 100%;
+  
 }
 #links {
   background-color: rgb(16, 134, 134);
@@ -151,8 +154,8 @@ nav img {
   text-decoration: none;
 }
 #box {
+  margin-top: 5%;
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 10);
-
   height: 500px;
   width: 550px;
   margin-left: 30%;
