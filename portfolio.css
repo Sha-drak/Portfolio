@@ -58,7 +58,7 @@ nav {
   bottom: 0;
   background-color: rgb(16, 134, 134);
   width:100% ;
-  height: 50px;
+  height: 45px;
   display: flex;
   justify-content: end;
   align-items:center;
@@ -237,6 +237,5 @@ nav img {
   border-radius: 50%;
   background-color: #55f0e8;
   text-align: center;
-  margin-left: 70%;
-  margin-top: 2%;
+  margin-left: 220%;
 }
