@@ -272,8 +272,8 @@ nav img {
    border-right: 70px solid transparent;
   }
   #b {
-   border-bottom: 30px solid lightblu;
-   border-left: 10px solid transparent;
+   border-bottom: 35px solid lightblue;
+   border-left: 130px solid transparent;
    border-right: 100px solid transparent;
    width: 0;
    height: 50px;
@@ -282,7 +282,7 @@ nav img {
    border-top: 30px solid lightblue;
    border-left: 70px solid transparent;
    border-right: 70px solid transparent;
-  
+  }
   #t {
    width: 0;
    border-top: 35px solid lightblue;
@@ -290,10 +290,9 @@ nav img {
    border-right: 70px solid transparent;
   }
   #myPic img{
-   height: 100px; 
+   height: 100px;
    width: 100px;
    margin-top: -36%;
    margin-left: 5%;
   }
   }
-}
