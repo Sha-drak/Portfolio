@@ -146,7 +146,7 @@ nav img {
   margin-top: 3rem;
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 10);
   height: 500px;
-  width: fit-content;
+  width:80%;
   align-items: center; 
   display: flex;
   flex-direction: column;
@@ -287,7 +287,7 @@ nav img {
     font-size: x-small;
   }
   #one  #percent, #one hr{
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: -17%;
   }
   #one hr{
@@ -306,10 +306,17 @@ nav img {
 
   #skills p{
     font-size: x-small;
+    margin-left: 60%;
+    
+  }
+  #skills img{
+    width: 35px;
+    margin-left: 15%;
+    
   }
   nav {
     position: sticky;
-    bottom: 0;
+    bottom: 10%;
     background-color: rgb(16, 134, 134);
     width: 100%;
     height: 45px;
@@ -321,4 +328,8 @@ nav img {
     font-size: small;
     margin-right: 10px;
   }
-  
+  #best{
+    margin-left: 110%;
+    height: 25px;
+    width: 25px;
+  }
