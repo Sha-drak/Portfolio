@@ -4,50 +4,42 @@ body {
   margin: 0;  
   text-align: left;
   width: 100%;
-  
 }
+
 #mySelf {
-  margin-left: 25px;
+  margin-left: 2%;
   display: flex;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100px;
 }
 #text {
-  font-style: bold;
   color: white;
-  line-height: 0.7;
-  margin-top: 25px;
 }
-#text h4 {
-  line-height: normal;
-  font-weight: 100;
-  font-size: normal;
-}
+
 #text h2 {
   color: lightblue;
 }
 #socialMedia {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-left: 5%;
 }
 #socialMedia img {
   width: 30px;
-  margin-left: 5px;
   border-radius: 50%;
   border: 2px solid lightblue;
   background-color: rgb(94, 83, 83);
 }
 button {
+  margin-top: 3%;
   background-color: rgb(197, 229, 240);
   box-shadow: 0 0 10px #55f0e8;
   height: 35px;
   width: 150px;
   border-radius: 20px;
   border: none;
-  margin-top: 10%;
-  margin-left: -150px;
-  margin-bottom: 30px;
+ 
+ 
 }
 button h3{
   margin-top:10px;
@@ -108,7 +100,6 @@ nav img {
   background-color: transparent;
 }
 #s {
-  width: 0;
   border-bottom: 50px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
@@ -117,16 +108,16 @@ nav img {
   border-bottom: 30px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 100px solid transparent;
-  width: 0;
+  
   height: 150px;
   background-color: lightblue;
-  width: 0;
+  
   border-top: 30px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
 }
 #t {
-  width: 0;
+
   border-top: 50px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
@@ -243,30 +234,16 @@ nav img {
 
 /* Styling for phone screens*/
 @media(max-width:768px) and (min-width: 20px){
-  #mySelf{
-   margin-left: 10px;
-   }
-   #text {
-  }
-  
-  #text h1{
-   margin-top: -7%;
-   font-size: large;
-   line-height: normal;
-  
-  }
-  #text p{
+  #text {
    font-size: x-small;
-   font-style: normal;
-   color: red;
   }
   
   /* Left side of the first page*/
   #myPic {
-   margin-left: 0;
+  margin-left: -5%;
+   margin-top: 5%;
   }
   #s {
-   width: 0;
    border-bottom: 35px solid lightblue;
    border-left: 70px solid transparent;
    border-right: 70px solid transparent;
@@ -275,20 +252,19 @@ nav img {
    border-bottom: 35px solid lightblue;
    border-left: 130px solid transparent;
    border-right: 100px solid transparent;
-   width: 0;
    height: 50px;
    background-color: lightblue;
-   width: 0;
    border-top: 30px solid lightblue;
    border-left: 70px solid transparent;
    border-right: 70px solid transparent;
   }
   #t {
-   width: 0;
+   
    border-top: 35px solid lightblue;
    border-left: 70px solid transparent;
    border-right: 70px solid transparent;
   }
+
   #myPic img{
    height: 100px;
    width: 100px;
@@ -296,3 +272,53 @@ nav img {
    margin-left: 5%;
   }
   }
+
+  /*Styling for box containing skills*/
+  #box{
+   
+  }
+  #rates{
+    margin-left: -53%;
+  }
+  #one #four{
+    margin-left: 25%;
+  }
+  #one p{
+    font-size: x-small;
+  }
+  #one  #percent, #one hr{
+    margin-left: 25%;
+    margin-top: -17%;
+  }
+  #one hr{
+    margin-top: -13%;
+  }
+
+  #one #four #percent, #one #four hr {
+    margin-left: 25%;
+    margin-left: 25%;
+  }
+  
+
+  #one .two p{
+    margin-left: 2%;
+  }
+
+  #skills p{
+    font-size: x-small;
+  }
+  nav {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(16, 134, 134);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #link a{
+    font-size: small;
+    margin-right: 10px;
+  }
+  
