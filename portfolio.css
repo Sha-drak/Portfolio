@@ -266,17 +266,14 @@ nav img {
   }
 
   #myPic img{
-   height: 100px;
-   width: 100px;
-   margin-top: -36%;
-   margin-left: 5%;
+   height: 20%;
+   width: 30%;
+   margin-top: -40%;
   }
   }
 
   /*Styling for box containing skills*/
-  #box{
-   
-  }
+  
   #rates{
     margin-left: -53%;
   }
@@ -287,7 +284,7 @@ nav img {
     font-size: x-small;
   }
   #one  #percent, #one hr{
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: -17%;
   }
   #one hr{
@@ -316,7 +313,7 @@ nav img {
   }
   nav {
     position: sticky;
-    bottom: 10%;
+    bottom: 0;
     background-color: rgb(16, 134, 134);
     width: 100%;
     height: 45px;
@@ -327,6 +324,10 @@ nav img {
   #link a{
     font-size: small;
     margin-right: 10px;
+  }
+  nav img{
+    height: 30px;
+    margin-left: -120px;
   }
   #best{
     margin-left: 110%;
