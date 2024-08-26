@@ -238,6 +238,12 @@ nav img {
 
  }
 
+ /* Hide the checkbox */
+ #menu-toggle {
+  display: none;
+}
+
+
 
 /* Styling for phone screens*/
 @media(max-width:768px) and (min-width: 20px){
@@ -319,6 +325,7 @@ nav img {
     margin-left: 15%;
     
   }
+  
   nav {
     position: sticky;
     bottom: 0;
@@ -329,10 +336,7 @@ nav img {
     justify-content: end;
     align-items: center;
   }
-  #link a{
-    font-size: small;
-    margin-right: 10px;
-  }
+  
   nav img{
     height: 30px;
     margin-left: -120px;
@@ -351,18 +355,16 @@ nav img {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: transparent;
     color: white;
+    width: fit-content;
 }
 #three img {
     width: 40px;
     cursor: pointer;
 }
 
-/* Hide the checkbox */
-#menu-toggle {
-    display: none;
-}
+
 
 /* Style the hamburger icon */
 #menu-icon {
@@ -374,32 +376,30 @@ nav img {
 #menu-icon div {
     width: 30px;
     height: 4px;
-    background-color: white;
+    background-color: lightblue;
     margin: 5px 0;
     transition: all 0.3s ease;
 }
 
 /* Links hidden by default */
 #link {
-    display: none; /* Hide links by default */
+    margin-left: 55%;
+    display: none; 
     flex-direction: column;
     position: absolute;
-    top: 60px;
     left: 0;
     width: 100%;
-    background-color: #333;
     z-index: 1;
 }
 #link a {
+    margin-right: -30%;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    border-top: 1px solid #444;
     text-align: center;
+    font-size: small;
 }
-#link a:first-child {
-    border-top: none;
-}
+
 
 /* Only show the hamburger menu on phone screens */
 @media (max-width: 576px) {
@@ -408,7 +408,7 @@ nav img {
     }
     #menu-toggle:checked + #menu-icon + #link {
         display: flex; /* Show links when the checkbox is checked */
-        flex-direction: column; 
+        flex-direction: row; 
     }
 
     /* Animations for hamburger icon */
