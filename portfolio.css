@@ -276,7 +276,7 @@ nav img {
   #myPic img{
    height: 17%;
    width: 30%;
-   margin-top: -42%;
+   margin-top: -40%;
   }
 
   /*Styling for box containing skills*/
@@ -285,7 +285,7 @@ nav img {
     margin-left: -53%;
   }
   #one #four{
-    margin-left: 25%;
+    margin-left: 20%;
   }
   #one p{
     font-size: x-small;
@@ -296,6 +296,7 @@ nav img {
   }
   #one hr{
     margin-top: -13%;
+    width: 3%;
   }
 
   #one #four #percent, #one #four hr {
@@ -345,8 +346,82 @@ nav img {
     font-size: x-small;
     margin-top: 10px;
   }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+#three img {
+    width: 40px;
+    cursor: pointer;
+}
 
+/* Hide the checkbox */
+#menu-toggle {
+    display: none;
+}
 
+/* Style the hamburger icon */
+#menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+#menu-icon div {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+/* Links hidden by default */
+#link {
+    display: none; /* Hide links by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+}
+#link a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-top: 1px solid #444;
+    text-align: center;
+}
+#link a:first-child {
+    border-top: none;
+}
+
+/* Only show the hamburger menu on phone screens */
+@media (max-width: 576px) {
+    #menu-icon {
+        display: flex;
+    }
+    #menu-toggle:checked + #menu-icon + #link {
+        display: flex; /* Show links when the checkbox is checked */
+        flex-direction: column; 
+    }
+
+    /* Animations for hamburger icon */
+    #menu-toggle:checked + #menu-icon div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+    #menu-toggle:checked + #menu-icon div:nth-child(2) {
+        opacity: 0;
+    }
+    #menu-toggle:checked + #menu-icon div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+}
   }
 
  
