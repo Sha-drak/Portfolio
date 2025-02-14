@@ -1,17 +1,18 @@
-
 body {
   background-color: #101720;
-  margin: 0;  
+  margin: 0;
   text-align: left;
   width: 100%;
 }
 
+/* Introduction Section */
 #mySelf {
-  margin-left: 2%;
+  margin-left: 1%;
   display: flex;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #text {
   color: white;
 }
@@ -19,17 +20,20 @@ body {
 #text h2 {
   color: lightblue;
 }
+
 #socialMedia {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
 }
+
 #socialMedia img {
   width: 30px;
   border-radius: 50%;
   border: 2px solid lightblue;
   background-color: rgb(94, 83, 83);
 }
+
 button {
   margin-top: 3%;
   background-color: rgb(197, 229, 240);
@@ -38,28 +42,30 @@ button {
   width: 150px;
   border-radius: 20px;
   border: none;
- 
- 
 }
-button h3{
-  margin-top:10px;
-  font-style:bold;
+
+button h3 {
+  margin-top: 10px;
+  font-style: bold;
 }
+
+/* Navigation Bar */
 nav {
   position: fixed;
   bottom: 0;
   background-color: rgb(16, 134, 134);
-  width:100% ;
+  width: 100%;
   height: 45px;
   display: flex;
   justify-content: end;
-  align-items:center;
+  align-items: center;
 }
 
-#link{
+#link {
   background-color: transparent;
 }
-#link a{
+
+#link a {
   color: white;
   text-decoration: none;
   margin-right: 25px;
@@ -68,68 +74,69 @@ nav {
   font-weight: 700;
   font-size: larger;
 }
-nav #three {
-  display: flex;
-  justify-content: start;
-}
+
 #links .home,
 #link #hom {
   color: rgb(35, 231, 238);
 }
-#link #hom{
-  color: rgb(35, 231, 238);
-}
+
 nav img {
   border-radius: 50%;
   height: 40px;
-  margin-left: -1600%;
-  
+  margin-left: auto;
+  margin-right: 600px;
 }
 
+/* Profile Picture Section */
 #myPic {
   margin-top: 10%;
-  margin-left: 150%;
+  margin-left: 100%;
 }
+
 #myPic img {
   border-radius: 30%;
   height: 250px;
   width: 240px;
   position: absolute;
-  margin-top: -20%;
-  margin-left: 1%;
+  margin-top: -4%;
+  margin-left: -10%;
   background-color: transparent;
 }
+
 #s {
   border-bottom: 50px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
 }
+
 #b {
   border-bottom: 30px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 100px solid transparent;
-  
   height: 150px;
   background-color: lightblue;
-  
   border-top: 30px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
 }
-#t {
 
+#t {
   border-top: 50px solid lightblue;
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
 }
+
+/* Skills Section */
 #skills {
   display: flex;
   flex-direction: column;
   margin-left: -75%;
 }
+
 #skills img {
   width: 50px;
 }
+
 #skills p {
   margin-left: 50%;
   margin-top: -30%;
@@ -139,22 +146,24 @@ nav img {
   font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #skills a {
   text-decoration: none;
 }
+
 #box {
   margin-top: 3rem;
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 10);
   height: 500px;
-  width:fit-content;
-  align-items: center; 
+  width: fit-content;
+  align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: auto; 
-  margin-right: auto; 
-
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #box h2 {
   text-align: center;
   width: 70px;
@@ -164,38 +173,42 @@ nav img {
   height: fit-content;
   margin-top: -5%;
 }
+
 #rates {
   display: flex;
-  margin-left: -25%;  
+  margin-left: -25%;
   margin-top: 15%;
 }
 
 #rates div {
   margin-left: 50px;
 }
+
 #rates #one {
   display: flex;
 }
+
 #one div {
   height: 10px;
   margin-top: 35px;
 }
+
 #one img,
 #one p {
   height: 15px;
-  margin-top: -60%;
   margin-top: -60%;
   margin-left: 15px;
   color: white;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #one .two {
   display: flex;
   margin-left: -15%;
 }
 
-#one #four{
+#one #four {
   margin-left: 10em;
 }
 
@@ -208,20 +221,22 @@ nav img {
   border: none;
   position: absolute;
 }
-#one  #percent {
+
+#one #percent {
   color: lightblue;
   margin-left: 12%;
   margin-top: -105px;
   position: absolute;
 }
+
 #one #four #percent {
   margin-left: 13%;
-
 }
 
-#one #four hr{
+#one #four hr {
   margin-left: 13%;
 }
+
 #best {
   height: 45px;
   width: 45px;
@@ -230,198 +245,124 @@ nav img {
   text-align: center;
   margin-left: 220%;
 }
- 
-#best h3{
-  font-weight: 100; 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+#best h3 {
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 13px;
-
- }
-
- /* Hide the checkbox */
- #menu-toggle {
-  display: none;
 }
 
-
-
-/* Styling for phone screens*/
-@media(max-width:768px) and (min-width: 20px){
-
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Adjust font size for smaller screens */
   #text {
-   font-size: x-small;
+    font-size: x-small;
   }
-  
-  /* Left side of the first page*/
+
+  /* Adjust profile picture section */
   #myPic {
-  margin-left: -5%;
-   margin-top: 5%;
+    margin-left: 0;
+    
   }
+
   #s {
-   border-bottom: 35px solid lightblue;
-   border-left: 70px solid transparent;
-   border-right: 70px solid transparent;
+    border-bottom: 35px solid lightblue;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
   }
+
   #b {
-   border-bottom: 35px solid lightblue;
-   border-left: 130px solid transparent;
-   border-right: 100px solid transparent;
-   height: 50px;
-   background-color: lightblue;
-   border-top: 30px solid lightblue;
-   border-left: 70px solid transparent;
-   border-right: 70px solid transparent;
+    border-bottom: 35px solid lightblue;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 50px;
+    background-color: lightblue;
+    border-top: 30px solid lightblue;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
   }
+
   #t {
-   
-   border-top: 35px solid lightblue;
-   border-left: 70px solid transparent;
-   border-right: 70px solid transparent;
+    border-top: 35px solid lightblue;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
   }
 
   #myPic img{
    height: 17%;
    width: 30%;
-   margin-top: -40%;
+   margin-top: -12%;
+   margin-left: -15%;
   }
 
-  /*Styling for box containing skills*/
-  
-  #rates{
-    margin-left: -53%;
+  /* Adjust skills section */
+  #rates {
+    margin-right: 30%; 
   }
-  #one #four{
+
+  #one #four {
     margin-left: 20%;
   }
-  #one p{
+
+  #one p {
     font-size: x-small;
   }
-  #one  #percent, #one hr{
+
+  #one #percent,
+  #one hr {
     margin-left: 25%;
     margin-top: -17%;
   }
-  #one hr{
+
+  #one hr {
     margin-top: -13%;
     width: 3%;
   }
 
-  #one #four #percent, #one #four hr {
-    margin-left: 25%;
+  #one #four #percent,
+  #one #four hr {
     margin-left: 25%;
   }
-  
 
-  #one .two p{
+  #one .two p {
     margin-left: 2%;
   }
 
-  #skills p{
+  #skills p {
     font-size: x-small;
     margin-left: 60%;
-    
   }
-  #skills img{
+
+  #skills img {
     width: 35px;
     margin-left: 15%;
+  }
+
+  /* Adjust navigation bar */
+  nav {
     
-  }
+    height: auto; 
+    padding: 10px; 
   
-  nav {
-    position: sticky;
-    bottom: 0;
-    background-color: rgb(16, 134, 134);
-    width: 100%;
-    height: 45px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
   }
-  
-  nav img{
-    height: 30px;
-    margin-left: -120px;
-  }
-  #best{
-    margin-left: 110%;
-    height: 25px;
-    width: 25px;
-  }
-  #best h3{
-    font-size: x-small;
-    margin-top: 10px;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: white;
-    width: fit-content;
-}
-#three img {
-    width: 40px;
-    cursor: pointer;
-}
 
+  #link {
+    align-items: center; 
+    margin-top: 10px; 
+  }
 
-
-/* Style the hamburger icon */
-#menu-icon {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    z-index: 2;
-}
-#menu-icon div {
-    width: 30px;
-    height: 4px;
-    background-color: lightblue;
+  #link a {
     margin: 5px 0;
-    transition: all 0.3s ease;
-}
-
-/* Links hidden by default */
-#link {
-    margin-left: 55%;
-    display: none; 
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-}
-#link a {
-    margin-right: -30%;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: small;
-}
-
-
-/* Only show the hamburger menu on phone screens */
-@media (max-width: 576px) {
-    #menu-icon {
-        display: flex;
-    }
-    #menu-toggle:checked + #menu-icon + #link {
-        display: flex; /* Show links when the checkbox is checked */
-        flex-direction: row; 
-    }
-
-    /* Animations for hamburger icon */
-    #menu-toggle:checked + #menu-icon div:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 5px);
-    }
-    #menu-toggle:checked + #menu-icon div:nth-child(2) {
-        opacity: 0;
-    }
-    #menu-toggle:checked + #menu-icon div:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -5px);
-    }
-}
+    font-size: medium; 
+    margin-left: 3%;
   }
 
- 
+  nav img {
+    height: 30px; 
+    margin-left: -250%; 
+    margin-right: 0;
+  }
+  #box #best{
+    margin-left: 120%;
+  }
+}
